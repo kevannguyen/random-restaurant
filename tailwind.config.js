@@ -3,9 +3,22 @@ module.exports = {
         './pages/**/*.{js,ts,jsx,tsx}',
         './components/**/*.{js,ts,jsx,tsx}',
     ],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: false,
     theme: {
-        extend: {},
+        extend: {
+            width: {
+                160: '40rem',
+                172: '43rem',
+                180: '45rem',
+                200: '50rem',
+            },
+            maxWidth: {
+                160: '40rem',
+                172: '43rem',
+                180: '45rem',
+                200: '50rem',
+            },
+        },
     },
     variants: {
         extend: {},

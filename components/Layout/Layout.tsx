@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react';
-import Link from 'next/link';
 import Head from 'next/head';
 import Header from '../Navbar/Navbar';
 
@@ -18,8 +17,8 @@ const Layout = ({ children, title = 'Random Restaurant' }: Props) => (
                 content="initial-scale=1.0, width=device-width"
             />
         </Head>
-        <Header></Header>
-        <div className="s text-green-800">{children}</div>
+        <Header />
+        <div className="p p-2">{children}</div>
     </div>
 );
 
